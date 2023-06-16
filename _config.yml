@@ -74,21 +74,23 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          이 프로젝트는 모두연(https://modulabs.co.kr/)의 Deep Learning 교육과정의 일환입니다. 산업분야에서 사용하는 로봇의 install과정을 단축시키기 위해 6D Pose Estimation모델의 연구가 활발합니다. 컴퓨터가 직접 물체의 위치와 방향을 인식하기 위한 Deep Learnig 모델인 6D Pose Estimation모델을 조금더 간편하게 사용하고 훈련시키는 방법을 연구하기 위한 프로젝트입니다. 
+        # quote: >
+        #   이 프로젝트는 모두연(https://modulabs.co.kr/)의 Deep Learning 교육과정의 일환입니다. 산업분야에서 사용하는 로봇의 install과정을 단축시키기 위해 6D Pose Estimation모델의 연구가 활발합니다. 컴퓨터가 직접 물체의 위치와 방향을 인식하기 위한 Deep Learnig 모델인 6D Pose Estimation모델을 조금더 간편하게 사용하고 훈련시키는 방법을 연구하기 위한 프로젝트입니다. 
 
         description: | # this will include new lines to allow paragraphs
           This project is part of the Deep Learning education program offered by ModuLabs (https://modulabs.co.kr/). There is active research on 6D Pose Estimation models to expedite the installation process of robots used in the industrial field. The project aims to explore methods for simplifying the use and training of Deep Learning models, specifically the 6D Pose Estimation model, which enables computers to directly perceive the position and orientation of objects.
+          
           The FFB6D model, which is one of the 6D Pose Estimation models, has been modified based on it, and the modifications have been made to make it applicable with other Depth Cameras, as long as the Camera Parameters are provided, instead of the Depth Camera used by the original model.
 
           I was responsible for modifying the model's code and conducting model training as part of the project.
 
           이 프로젝트는 모두연(https://modulabs.co.kr/)의 Deep Learning 교육과정의 일환입니다. 산업분야에서 사용하는 로봇의 install과정을 단축시키기 위해 6D Pose Estimation모델의 연구가 활발합니다. 컴퓨터가 직접 물체의 위치와 방향을 인식하기 위한 Deep Learnig 모델인 6D Pose Estimation모델을 조금더 간편하게 사용하고 훈련시키는 방법을 연구하기 위한 프로젝트입니다.
+          
           6D Pose Estimation모델의 하나인 FFB6D 모델을 기반으로 수정했으며, 기존 모델이 사용한 Depth Camera가 아닌 다른 Depth Camera도 Camera Parameter만 있다면 적용 가능하도록 수정했습니다. 
 
           저는 모델의 코드 수정과 모델 훈련을 맡아 프로젝트를 진행했습니다.
 
-      - layout: top-middle
+      - layout: left
         title: Multi Neural Machine Translation for English to Korean Dialect
         link: https://github.com/seuyon0101/saturi_lab_multi_nmt_low_resource
         # link_text: Project Website
@@ -110,7 +112,28 @@ content:
           이 모임은 Low-Resource Language(LRL)와 관련된 one-to-many translation 방법을 탐색하고 가설을 세우고 실험을 진행합니다.
           프로젝트는 우리나라 언어 보존에 도움을 줄 수 있어 사회적인 가치가 있고 한국어 LRL 연구에 필요성과 발전을 위해 기여할 수 있는 기회가 될 수 있습니다.
 
+  - title: Skills # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Languge
+      
+        description: | # this will include new lines to allow paragraphs
+            - Python
 
+      - layout: left
+        title: Framework
+      
+        description: | # this will include new lines to allow paragraphs
+            - TensorFlow
+            - PyTorch
+      
+      - layout: left
+        title: OS
+      
+        description: | # this will include new lines to allow paragraphs
+            - Window
+            - Linux
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
