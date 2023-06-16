@@ -51,12 +51,7 @@ about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Jungki Son and 
   I am interested in using deep learning to change the world. I have an interest in deep learning models based on convolutional layers, transformer-based natural language processing models, and generative models. I am expanding my understanding through personal projects little by little.
 
-  I am most skilled in: <mark>python</mark> and <mark>TensorFlow</mark>, <mark>Pytorch</mark>
-
-
   안녕하세요. 딥러닝으로 세상을 바꾸는데 관심이 있는 손정기입니다. 저는 컨볼루션 레이어에 기반한 컴퓨터 비전 모델, 트랜스포머에 기반한 자연어처리 모델, 그리고 각종 생성모델 모두에 관심이 있습니다. 개인프로젝트를 통해 이해의 범위를 넓혀나가고 있는 중입니다. 
-
-  주 사용 언어는 <mark>python</mark>이고, <mark>TensorFlow</mark>, <mark>Pytorch</mark> 모두로 모델 구현이 가능합니다. 
 
 
 content:
@@ -78,17 +73,13 @@ content:
         #   이 프로젝트는 모두연(https://modulabs.co.kr/)의 Deep Learning 교육과정의 일환입니다. 산업분야에서 사용하는 로봇의 install과정을 단축시키기 위해 6D Pose Estimation모델의 연구가 활발합니다. 컴퓨터가 직접 물체의 위치와 방향을 인식하기 위한 Deep Learnig 모델인 6D Pose Estimation모델을 조금더 간편하게 사용하고 훈련시키는 방법을 연구하기 위한 프로젝트입니다. 
 
         description: | # this will include new lines to allow paragraphs
-          This project is part of the Deep Learning education program offered by ModuLabs (https://modulabs.co.kr/). There is active research on 6D Pose Estimation models to expedite the installation process of robots used in the industrial field. The project aims to explore methods for simplifying the use and training of Deep Learning models, specifically the 6D Pose Estimation model, which enables computers to directly perceive the position and orientation of objects.
-          
-          The FFB6D model, which is one of the 6D Pose Estimation models, has been modified based on it, and the modifications have been made to make it applicable with other Depth Cameras, as long as the Camera Parameters are provided, instead of the Depth Camera used by the original model.
+          - This project is part of the Deep Learning education program offered by ModuLabs (https://modulabs.co.kr/). There is active research on 6D Pose Estimation models to expedite the installation process of robots used in the industrial field. The project aims to explore methods for simplifying the use and training of Deep Learning models, specifically the 6D Pose Estimation model, which enables computers to directly perceive the position and orientation of objects.
+          - The FFB6D model, which is one of the 6D Pose Estimation models, has been modified based on it, and the modifications have been made to make it applicable with other Depth Cameras, as long as the Camera Parameters are provided, instead of the Depth Camera used by the original model.
+          - I was responsible for modifying the model's code and conducting model training as part of the project.
 
-          I was responsible for modifying the model's code and conducting model training as part of the project.
-
-          이 프로젝트는 모두연(https://modulabs.co.kr/)의 Deep Learning 교육과정의 일환입니다. 산업분야에서 사용하는 로봇의 install과정을 단축시키기 위해 6D Pose Estimation모델의 연구가 활발합니다. 컴퓨터가 직접 물체의 위치와 방향을 인식하기 위한 Deep Learnig 모델인 6D Pose Estimation모델을 조금더 간편하게 사용하고 훈련시키는 방법을 연구하기 위한 프로젝트입니다.
-          
-          6D Pose Estimation모델의 하나인 FFB6D 모델을 기반으로 수정했으며, 기존 모델이 사용한 Depth Camera가 아닌 다른 Depth Camera도 Camera Parameter만 있다면 적용 가능하도록 수정했습니다. 
-
-          저는 모델의 코드 수정과 모델 훈련을 맡아 프로젝트를 진행했습니다.
+          - 이 프로젝트는 모두연(https://modulabs.co.kr/)의 Deep Learning 교육과정의 일환입니다. 산업분야에서 사용하는 로봇의 install과정을 단축시키기 위해 6D Pose Estimation모델의 연구가 활발합니다. 컴퓨터가 직접 물체의 위치와 방향을 인식하기 위한 Deep Learnig 모델인 6D Pose Estimation모델을 조금더 간편하게 사용하고 훈련시키는 방법을 연구하기 위한 프로젝트입니다.
+          - 6D Pose Estimation모델의 하나인 FFB6D 모델을 기반으로 수정했으며, 기존 모델이 사용한 Depth Camera가 아닌 다른 Depth Camera도 Camera Parameter만 있다면 적용 가능하도록 수정했습니다. 
+          - 저는 모델의 코드 수정과 모델 훈련을 맡아 프로젝트를 진행했습니다.
 
       - layout: left
         title: Multi Neural Machine Translation for English to Korean Dialect
@@ -103,13 +94,13 @@ content:
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          The Sauturi Lab is a group dedicated to researching and writing papers on a multi NMT (Neural Machine Translation) model that translates English into five regional dialects in Korea (Chungcheong, Jeju, Gangwon, Gyeongsang, Jeolla).
-          This group explores one-to-many translation methods related to Low-Resource Languages (LRL) and conducts experiments based on hypotheses.
-          The project has social value as it can contribute to language preservation in Korea, and it provides an opportunity to contribute to the necessity and advancement of Korean LRL research.
+          - The Sauturi Lab is a group dedicated to researching and writing papers on a multi NMT (Neural Machine Translation) model that translates English into five regional dialects in Korea (Chungcheong, Jeju, Gangwon, Gyeongsang, Jeolla).
+          - This group explores one-to-many translation methods related to Low-Resource Languages (LRL) and conducts experiments based on hypotheses.
+          - The project has social value as it can contribute to language preservation in Korea, and it provides an opportunity to contribute to the necessity and advancement of Korean LRL research.
 
-          sauturi lab 은 영어에서 5개 지방 방언(충청, 제주, 강원, 경상, 전라)으로 번역하는 모델(multi NMT)에 대한 연구를 수행하고 논문을 작성하는 것을 목표로하는 모임입니다.
-          이 모임은 Low-Resource Language(LRL)와 관련된 one-to-many translation 방법을 탐색하고 가설을 세우고 실험을 진행합니다.
-          프로젝트는 우리나라 언어 보존에 도움을 줄 수 있어 사회적인 가치가 있고 한국어 LRL 연구에 필요성과 발전을 위해 기여할 수 있는 기회가 될 수 있습니다.
+          - sauturi lab 은 영어에서 5개 지방 방언(충청, 제주, 강원, 경상, 전라)으로 번역하는 모델(multi NMT)에 대한 연구를 수행하고 논문을 작성하는 것을 목표로하는 모임입니다.
+          - 이 모임은 Low-Resource Language(LRL)와 관련된 one-to-many translation 방법을 탐색하고 가설을 세우고 실험을 진행합니다.
+          - 프로젝트는 우리나라 언어 보존에 도움을 줄 수 있어 사회적인 가치가 있고 한국어 LRL 연구에 필요성과 발전을 위해 기여할 수 있는 기회가 될 수 있습니다.
 
   - title: Skills # Title for the section
     layout: list # Type of content section (list/text)
@@ -143,12 +134,26 @@ content:
         link: https://modulabs.co.kr/
         caption: 2022 - 2023
         sub_title: Deep Learning Cource
-        quote: <
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+  
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          - This educational program covered a wide range of topics in machine learning and data science. Based on this foundation, I learned computer vision deep learning and natural language processing deep learning, with CNNs (Convolutional Neural Networks) and RNNs (Recurrent Neural Networks) as the fundamentals. Additionally, I gained a basic understanding of generative models through DCGAN (Deep Convolutional Generative Adversarial Networks) and pursued advanced studies divided into CV (Computer Vision) and NLP (Natural Language Processing).
+          - Personally, I chose CV and learned various backbone models used in CV tasks such as ResNet. I also studied OCR (Optical Character Recognition) and YOLO. With the assistance of other colleagues, I then delved into the NLP course, learning about transformer models and the Hugging Face library used for handling such models.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          - 이 교육과정은 좀 넓은 범위에서 기계학습과 데이터 사이언스를 배우고, 이를 바탕으로 CNN과 RNN을 기초로 컴퓨터 비전 딥러닝과 자연어 처리 딥러닝을 배웠습니다. 또한 DCGAN을 통해 생성모델의 기초를 배우고, CV와 NLP로 나뉘어 심화학습을 했습니다. 
+          - 저는 CV를 선택해서 resnet등 각종 CV task에서 사용하는 백본 모델을 배우고, OCR, YOLO등을 배웠습니다. 이후 다른 동료의 도움으로 NLP과정의 트랜스포머 모델과 그 모델을 다루는 허깅페이스 라이브러리를 배웠습니다. 
+
+      - layout: left
+        title: Sogang University
+        caption: 2002 - 2012
+        sub_title: History, Law
+        quote: >
+          Sogang University is an educational institution founded by the Society of Jesus based on the Catholic faith and the educational philosophy of the Jesuits in accordance with the educational spirit of South Korea.
+        description: | # this will include new lines to allow paragraphs
+          - Through my college life, I have made a commitment to work for society, and the desire to change the world through deep learning is an extension of this mindset.
+          
+          - 대학생활을 통해 사회를 위해 일하겠다는 결심을 하게 되었고, 딥러닝을 통해 세상을 바꾸고자 하는 것은 이 생각의 연장선입니다. 
+
+          
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -178,17 +183,6 @@ content:
 
           I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
