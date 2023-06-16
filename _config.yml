@@ -9,7 +9,7 @@ version: 2
 name: Jungki Son
 #title: Senior Network System Administrator
 email: aeolian83@gmail.com
-github: https://github.com/aeolian
+website: https://github.com/aeolian83
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -52,6 +52,11 @@ about_content: | # this will include new lines to allow paragraphs
   I am interested in using deep learning to change the world. I have an interest in deep learning models based on convolutional layers, transformer-based natural language processing models, and generative models. I am expanding my understanding through personal projects little by little.
 
   I am most skilled in: <mark>python</mark> and <mark>TensorFlow</mark>, <mark>Pytorch</mark>
+
+  안녕하세요. 딥러닝으로 세상을 바꾸는데 관심이 있는 손정기입니다. 저는 컨볼류션 레이어에 기반한 컴퓨터 비전 모델, 트랜스포머에 기반한 자연어처리 모델, 그리고 각종 생성모델 모두에 관심이 있습니다. 개인프로젝트를 통해 이해의 범위를 넓혀나가고 있는 중입니다. 
+
+  주 사용 언어는 <mark>python</mark>이고, <mark>TensorFlow</mark>, <mark>Pytorch</mark> 모두로 모델 구현이 가능합니다. 
+
 
 content:
   - title: Projects # Title for the section
