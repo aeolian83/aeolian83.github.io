@@ -9,7 +9,7 @@ version: 2
 name: Jungki Son
 #title: Senior Network System Administrator
 email: aeolian83@gmail.com
-#website: www.github.com/sproogen/resume-theme
+github: https://github.com/aeolian
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -48,9 +48,10 @@ linkedin_username: aeolian83
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name's Jungki Son and 
+  I am interested in using deep learning to change the world. I have an interest in deep learning models based on convolutional layers, transformer-based natural language processing models, and generative models. I am expanding my understanding through personal projects little by little.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am most skilled in: <mark>python</mark> and <mark>TensorFlow</mark>, <mark>Pytorch</mark>
 
 content:
   - title: Projects # Title for the section
