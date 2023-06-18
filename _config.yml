@@ -157,16 +157,28 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: National Health Insurance Service
-        link: https://www.nhis.or.kr/
+        title: Seoul Metropolitan Seodaemun-gu Office
+        link: https://www.sdm.go.kr/
         # link_text: boringcompany.com
-        sub_title: Intern
-        caption: 2012
+        sub_title: Community Organizer, Consultant
+        caption: 2019 - 2022
         quote: >
-          The National Health Insurance Service is a key organization that operates the medical insurance system in South Korea, which adopts a public health insurance system.
+          The resident councils promoted by the Seoul Metropolitan Government aim to enhance the governance between residents and the administration, allowing residents to directly plan and implement policies according to their preferences.
         description: | # this will include new lines to allow paragraphs
-          - Through this internship, I have firmly solidified my determination to work for the betterment of society.
-          - 이 인턴쉽을 통해 사회를 위해 일하겠다는 결심을 확고하게 다지게 되었습니다. 
+          - I served as a resident organizer and advisor, playing a role in mediating between residents and the administration, and working to enhance mutual understanding and knowledge of the system.
+          - 주민조직가이자 조언자로서 주민과 행정의 중간에서 서로를 조율하고, 제도 이해도를 높이기 위한 역활을 했습니다.
+
+      - layout: left
+        title: WOW Culture LAB
+        link: http://wowlab.or.kr/
+        # link_text: boringcompany.com
+        sub_title: Event Designer
+        caption: 2016 - 2018
+        quote: >
+          Wow Culture Lab is a social enterprise that plans and organizes various cultural events, including the renowned Wow Book Festival, one of Seoul's prominent book festivals.
+        description: | # this will include new lines to allow paragraphs
+          - As a Event Designer, I organized and executed the Wow Book Festival, along with various other cultural events.
+          - 문화기획자로 와우북페스티벌을 기획하고, 실행했습니다. 그 외 각종 문화행사를 기획, 주최하였습니다. 
 
       - layout: left
         title: Seoul Welfare Foundation
@@ -179,31 +191,18 @@ content:
         description: | # this will include new lines to allow paragraphs
           - I have worked as an organizational activist for resident organizations through the "Welfare Ecosystem Development Project for Local Areas" aimed at restoring community relationships in disconnected urban areas.
           - 끊어진 도심지역 주민관계 복원을 위한 '소지역복지생태계조성사업'을 통해 주민조직을 위한 조직활동가로 활동하였습니다. 
-          
+      
       - layout: left
-        title: WOW Culture LAB
-        link: http://wowlab.or.kr/
+        title: National Health Insurance Service
+        link: https://www.nhis.or.kr/
         # link_text: boringcompany.com
-        sub_title: Event Designer
-        caption: 2016 - 2018
+        sub_title: Intern
+        caption: 2012
         quote: >
-          Wow Culture Lab is a social enterprise that plans and organizes various cultural events, including the renowned Wow Book Festival, one of Seoul's prominent book festivals.
+          The National Health Insurance Service is a key organization that operates the medical insurance system in South Korea, which adopts a public health insurance system.
         description: | # this will include new lines to allow paragraphs
-          - As a Event Designer, I organized and executed the Wow Book Festival, along with various other cultural events.
-          - 문화기획자로 와우북페스티벌을 기획하고, 실행했습니다. 그 외 각종 문화행사를 기획, 주최하였습니다. 
-        
-      - layout: left
-        title: Seoul Metropolitan Seodaemun-gu Office
-        link: https://www.sdm.go.kr/
-        # link_text: boringcompany.com
-        sub_title: Community Organizer, Consultant
-        caption: 2019 - 2022
-        quote: >
-          The resident councils promoted by the Seoul Metropolitan Government aim to enhance the governance between residents and the administration, allowing residents to directly plan and implement policies according to their preferences.
-        description: | # this will include new lines to allow paragraphs
-          - I served as a resident organizer and advisor, playing a role in mediating between residents and the administration, and working to enhance mutual understanding and knowledge of the system.
-          - 주민조직가이자 조언자로서 주민과 행정의 중간에서 서로를 조율하고, 제도 이해도를 높이기 위한 역활을 했습니다.
-
+          - Through this internship, I have firmly solidified my determination to work for the betterment of society.
+          - 이 인턴쉽을 통해 사회를 위해 일하겠다는 결심을 확고하게 다지게 되었습니다. 
 
   - title: A Little More About Me
     layout: text
