@@ -73,7 +73,7 @@ content:
         #   이 프로젝트는 모두연(https://modulabs.co.kr/)의 Deep Learning 교육과정의 일환입니다. 산업분야에서 사용하는 로봇의 install과정을 단축시키기 위해 6D Pose Estimation모델의 연구가 활발합니다. 컴퓨터가 직접 물체의 위치와 방향을 인식하기 위한 Deep Learnig 모델인 6D Pose Estimation모델을 조금더 간편하게 사용하고 훈련시키는 방법을 연구하기 위한 프로젝트입니다. 
 
         description: | # this will include new lines to allow paragraphs
-          - This project is part of the Deep Learning education program offered by ModuLabs (https://modulabs.co.kr/). There is active research on 6D Pose Estimation models to expedite the installation process of robots used in the industrial field. The project aims to explore methods for simplifying the use and training of Deep Learning models, specifically the 6D Pose Estimation model, which enables computers to directly perceive the position and orientation of objects.
+          - This project is part of the Deep Learning education program offered by [ModuLabs](https://modulabs.co.kr/). There is active research on 6D Pose Estimation models to expedite the installation process of robots used in the industrial field. The project aims to explore methods for simplifying the use and training of Deep Learning models, specifically the 6D Pose Estimation model, which enables computers to directly perceive the position and orientation of objects.
           - The FFB6D model, which is one of the 6D Pose Estimation models, has been modified based on it, and the modifications have been made to make it applicable with other Depth Cameras, as long as the Camera Parameters are provided, instead of the Depth Camera used by the original model.
           - I was responsible for modifying the model's code and conducting model training as part of the project.
 
