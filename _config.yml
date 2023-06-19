@@ -83,6 +83,7 @@ content:
 
       - layout: top-middle
         title: Multi Neural Machine Translation for English to Korean Dialect
+        link: github.com/seuyon0101/saturi_lab_multi_nmt_low_resource
         # link_text: Project Website
         additional_links:
           - title:  seuyon0101/saturi_lab_multi_nmt_low_resource
@@ -128,7 +129,7 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: Aiffel
         link: https://www.aiffel.io/
         caption: 2022 - 2023
@@ -141,7 +142,7 @@ content:
           - 이 교육과정은 [모두연](https://modulabs.co.kr/)의 Deep Learning 교육과정의 일환입니다. 좀 넓은 범위에서 기계학습과 데이터 사이언스를 배우고, 이를 바탕으로 CNN과 RNN을 기초로 컴퓨터 비전 딥러닝과 자연어 처리 딥러닝을 배웠습니다. 또한 DCGAN을 통해 생성모델의 기초를 배우고, CV와 NLP로 나뉘어 심화학습을 했습니다.
           - 저는 CV를 선택해서 resnet등 각종 CV task에서 사용하는 백본 모델을 배우고, OCR, YOLO등을 배웠습니다. 이후 다른 동료의 도움으로 NLP과정의 트랜스포머 모델과 그 모델을 다루는 허깅페이스 라이브러리를 배웠습니다. 
 
-      - layout: top-middle
+      - layout: left
         title: Sogang University
         caption: 2002 - 2012
         sub_title: History, Law
