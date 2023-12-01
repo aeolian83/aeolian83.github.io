@@ -51,6 +51,8 @@ about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Jungki Son and 
   I am interested in using deep learning to change the world. I have an interest in deep learning models based on convolutional layers, transformer-based natural language processing models, and generative models. I am expanding my understanding through personal projects little by little.
 
+  안녕하세요. 딥러닝으로 세상을 바꾸는데 관심이 있는 손정기입니다. 저는 컨볼루션 레이어에 기반한 컴퓨터 비전 모델, 트랜스포머에 기반한 자연어처리 모델, 그리고 각종 생성모델 모두에 관심이 있습니다. 개인프로젝트를 통해 이해의 범위를 넓혀나가고 있는 중입니다. 
+
 
 content:
   - title: Projects # Title for the section
@@ -74,6 +76,10 @@ content:
           - This group explores one-to-many translation methods related to Low-Resource Languages (LRL) and conducts experiments based on hypotheses.
           - The project has social value as it can contribute to language preservation in Korea, and it provides an opportunity to contribute to the necessity and advancement of Korean LRL research.
 
+          - sauturi lab 은 영어에서 5개 지방 방언(충청, 제주, 강원, 경상, 전라)으로 번역하는 모델(multi NMT)에 대한 연구를 수행하고 논문을 작성하는 것을 목표로하는 모임입니다.
+          - 이 모임은 Low-Resource Language(LRL)와 관련된 one-to-many translation 방법을 탐색하고 가설을 세우고 실험을 진행합니다.
+          - 프로젝트는 우리나라 언어 보존에 도움을 줄 수 있어 사회적인 가치가 있고 한국어 LRL 연구에 필요성과 발전을 위해 기여할 수 있는 기회가 될 수 있습니다.
+
       - layout: top-middle
         title: AI Contest for Classifying wallpapering
         link: https://dacon.io/competitions/official/236082/overview/description
@@ -93,6 +99,11 @@ content:
           - Comparing various image detection models such as EfficientNet, ResNet, and ConNext to derive the optimal model.
           - 43rd place out of 1018 teams (Team name: MDAO1)[leaderboard](https://dacon.io/competitions/official/236082/leaderboard)
 
+          - 총 19가지 도배하자 유형 분류 모델 개발 경진대회
+          - data augmentation 및 weighted sampling train 기법을 통해 모델 성능향상
+          - EfficientNet, ResNet, ConNext 등 여러 이미지 디텍션 모델을 비교하여 최적 모델 도출
+          - 1018개 팀중 43위(팀명 MDAO1)[리더보드](https://dacon.io/competitions/official/236082/leaderboard)
+
       - layout: top-middle
         title: Implementing a Robust Object Picking Algorithm(Robust Object Picking Algorithm 구현)
         link: https://youtu.be/srv-g49sDUk
@@ -111,6 +122,10 @@ content:
           - This project is part of the Deep Learning education program offered by [ModuLabs](https://modulabs.co.kr/)(https://modulabs.co.kr/). There is active research on 6D Pose Estimation models to expedite the installation process of robots used in the industrial field. The project aims to explore methods for simplifying the use and training of Deep Learning models, specifically the 6D Pose Estimation model, which enables computers to directly perceive the position and orientation of objects.
           - The FFB6D model, which is one of the 6D Pose Estimation models, has been modified based on it, and the modifications have been made to make it applicable with other Depth Cameras, as long as the Camera Parameters are provided, instead of the Depth Camera used by the original model.
           - I was responsible for modifying the model's code and conducting model training as part of the project.
+
+          - 이 프로젝트는 [모두연](https://modulabs.co.kr/)(https://modulabs.co.kr/)의 Deep Learning 교육과정의 일환입니다. 산업분야에서 사용하는 로봇의 install과정을 단축시키기 위해 6D Pose Estimation모델의 연구가 활발합니다. 컴퓨터가 직접 물체의 위치와 방향을 인식하기 위한 Deep Learnig 모델인 6D Pose Estimation모델을 조금더 간편하게 사용하고 훈련시키는 방법을 연구하기 위한 프로젝트입니다.
+          - 6D Pose Estimation모델의 하나인 FFB6D 모델을 기반으로 수정했으며, 기존 모델이 사용한 Depth Camera가 아닌 다른 Depth Camera도 Camera Parameter만 있다면 적용 가능하도록 수정했습니다. 
+          - 저는 모델의 코드 수정과 모델 훈련을 맡아 프로젝트를 진행했습니다.
 
 
   - title: Skills # Title for the section
@@ -149,6 +164,9 @@ content:
           - This educational program is part of [Modulabs](https://modulabs.co.kr)' Deep Learning curriculum. It covers a broad range of topics in machine learning and data science, with a focus on computer vision deep learning and natural language processing deep learning using CNN and RNN as foundational concepts. Additionally, I learned the fundamentals of generative models through DCGAN and pursued advanced studies in the fields of computer vision (CV) and natural language processing (NLP).
           - Personally, I chose CV and learned various backbone models used in CV tasks such as ResNet. I also studied OCR (Optical Character Recognition) and YOLO. With the assistance of other colleagues, I then delved into the NLP course, learning about transformer models and the Hugging Face library used for handling such models.
 
+          - 이 교육과정은 [모두연](https://modulabs.co.kr/)의 Deep Learning 교육과정의 일환입니다. 좀 넓은 범위에서 기계학습과 데이터 사이언스를 배우고, 이를 바탕으로 CNN과 RNN을 기초로 컴퓨터 비전 딥러닝과 자연어 처리 딥러닝을 배웠습니다. 또한 DCGAN을 통해 생성모델의 기초를 배우고, CV와 NLP로 나뉘어 심화학습을 했습니다.
+          - 저는 CV를 선택해서 resnet등 각종 CV task에서 사용하는 백본 모델을 배우고, OCR, YOLO등을 배웠습니다. 이후 다른 동료의 도움으로 NLP과정의 트랜스포머 모델과 그 모델을 다루는 허깅페이스 라이브러리를 배웠습니다. 
+
       - layout: top-middle
         title: Sogang University
         caption: 2002 - 2012
@@ -157,6 +175,9 @@ content:
           Sogang University is an educational institution founded by the Society of Jesus based on the Catholic faith and the educational philosophy of the Jesuits in accordance with the educational spirit of South Korea.
         description: | # this will include new lines to allow paragraphs
           - Through my college life, I have made a commitment to work for society, and the desire to change the world through deep learning is an extension of this mindset.
+          
+          - 대학생활을 통해 사회를 위해 일하겠다는 결심을 하게 되었고, 딥러닝을 통해 세상을 바꾸고자 하는 것은 이 생각의 연장선입니다. 
+
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -171,6 +192,7 @@ content:
           The resident councils promoted by the Seoul Metropolitan Government aim to enhance the governance between residents and the administration, allowing residents to directly plan and implement policies according to their preferences.
         description: | # this will include new lines to allow paragraphs
           - Based on specialized knowledge in governance, I served as a community organizer and advisor, mediating between residents and administration, and working to enhance understanding of governance systems.
+          - 협치에 관한 전문적인 지식을 바탕으로, 주민조직가이자 조언자로서 주민과 행정의 중간에서 서로를 조율하고, 협치 제도의 이해도를 높이기 위한 역활을 했습니다.
 
       - layout: left
         title: WOW Culture LAB
@@ -182,6 +204,7 @@ content:
           Wow Culture Lab is a social enterprise that plans and organizes various cultural events, including the renowned Wow Book Festival, one of Seoul's prominent book festivals.
         description: | # this will include new lines to allow paragraphs
           - As a Event Designer, I organized and executed the Wow Book Festival, along with various other cultural events.
+          - 문화기획자로 와우북페스티벌을 기획하고, 실행했습니다. 그 외 각종 문화행사를 기획, 주최하였습니다. 
 
       - layout: left
         title: Seoul Welfare Foundation
@@ -193,6 +216,7 @@ content:
           Seoul Welfare Foundation is an organization dedicated to leading Seoul's welfare policies and conducting research on welfare models that can be implemented in the public sector.
         description: | # this will include new lines to allow paragraphs
           - I have worked as an organizational activist for resident organizations through the "Welfare Ecosystem Development Project for Local Areas" aimed at restoring community relationships in disconnected urban areas.
+          - 끊어진 도심지역 주민관계 복원을 위한 '소지역복지생태계조성사업'을 통해 주민조직을 위한 조직활동가로 활동하였습니다. 
       
       - layout: left
         title: National Health Insurance Service
@@ -204,15 +228,19 @@ content:
           The National Health Insurance Service is a key organization that operates the medical insurance system in South Korea, which adopts a public health insurance system.
         description: | # this will include new lines to allow paragraphs
           - Through this internship, I have firmly solidified my determination to work for the betterment of society.
+          - 이 인턴쉽을 통해 사회를 위해 일하겠다는 결심을 확고하게 다지게 되었습니다. 
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       - I always enjoy learning new things, but at the same time, I appreciate the beauty of the old. I aspire to find a path where AI can lead modern society in a positive direction, drawing upon my knowledge of humanities.
+      - 언제나 새로운것을 배우길 좋아하지만, 또 한편으로는 옛것의 아름다움을 잘 알고 있습니다. 저는 인문학적 지식을 바탕으로, AI가 현대 사회를 좋은 방향으로 이끌어가는 길을 찾고 싶습니다. 
 
       - I have been active in 'Our Neighborhood Youth Association', which is based in Mangwon-dong, Mapo-gu, Seoul, for the past 10 years. 'Our Neighborhood Youth Association' has been engaged in community-based volunteer activities and operated a youth alternative space called 'Beyond Imagination' near Hongik University, a cultural landmark in Seoul. I also served as the president of 'Our Neighborhood Youth Association' for two years.[[link](https://n.news.naver.com/mnews/article/047/0002078167?sid=103)]
+      - 서울시 마포구 망원동을 지역기반으로 활동한 '우리동네 청년회'에서 10년간 활동했습니다. '우리동네 청년회'는 지역기반 봉사활동과 서울시의 문화명소인 홍익대 인근에서 청년대안공간 '상상언저리'를 운영했습니다. 저는 2년간 '우리동네 청년회'회장직을 수행하기도 했습니다.[[link](https://n.news.naver.com/mnews/article/047/0002078167?sid=103)]
 
       - I also appreciate the mathematical depth and ever-changing nature of baseball as a sport.
+      - 또한 야구라는 스포츠가 가진 수학적 깊이와 변화무쌍함을 좋아합니다. 
 
 
 # Footer
