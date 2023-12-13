@@ -68,10 +68,22 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Paper Translator is a code that translates academic papers using mathpix and chatGPT APIs. It was developed to address various issues such as a significant drop in translation quality and reduced readability of equations that occur when academic papers are fully translated through services like DeepL or Google Translator.
           - When fully translating a paper, a major factor that reduces readability is the improper OCR recognition of images and equations, leading to issues when recreating the document post-translation. Mathpix excels in the OCR process by accurately recognizing images and equations, and converting them into high-quality Latex or Markdown. Additionally, when an article contains equations, the fundamental idea of this code is to use GPT-4, which translates the article more effectively if it includes equations represented in Latex, rather than just the text converted from equations.
+      
+      - layout: top-middle
+        title: translateDnD
+        link: https://github.com/aeolian83/translateDnD
+        # link_text: Project Website
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          - A corpus of code for translating untranslated dialogues in D&D-style games.
+          - A corpus of code for fine-tuning open-source LLMs using QLoRA.
+          - Fine-tuning polyglot-ko-1.3b with the long text Korean-English translation database quarelike/sharegpt_deepl_ko_translation.
+          - Implementing colloquial language by further training a model fine-tuned for English-to-Korean translation.
 
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
       - layout: top-middle
         title: Multi Neural Machine Translation for English to Korean Dialect
         link: github.com/seuyon0101/saturi_lab_multi_nmt_low_resource
