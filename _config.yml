@@ -9,14 +9,15 @@ version: 2
 name: Jungki Son
 #title: Senior Network System Administrator
 email: aeolian83@gmail.com
-website: github.com/aeolian83/aiffel_mini_prject
+website: github.com/aeolian83/
+blog: https://velog.io/@aeolian83/posts
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
 #twitter_username: facespics
-github_username:  aeolian83
+github_username: aeolian83
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 facebook_username: aeolian83
@@ -48,200 +49,197 @@ linkedin_username: aeolian83
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Jungki Son and 
-  I am interested in using deep learning to change the world. I have an interest in deep learning models based on convolutional layers, transformer-based natural language processing models, and generative models. I am expanding my understanding through personal projects little by little.
-
+    Hi, my name's Jungki Son and 
+    I am interested in using deep learning to change the world. I have an interest in deep learning models based on convolutional layers, transformer-based natural language processing models, and generative models. I am expanding my understanding through personal projects little by little.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Paper_translator
-        link: https://github.com/aeolian83/paper_translator
-        # link_text: Project Website
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          - Paper Translator is a code that translates academic papers using mathpix and chatGPT APIs. It was developed to address various issues such as a significant drop in translation quality and reduced readability of equations that occur when academic papers are fully translated through services like DeepL or Google Translator.
-          - When fully translating a paper, a major factor that reduces readability is the improper OCR recognition of images and equations, leading to issues when recreating the document post-translation. Mathpix excels in the OCR process by accurately recognizing images and equations, and converting them into high-quality Latex or Markdown. Additionally, when an article contains equations, the fundamental idea of this code is to use GPT-4, which translates the article more effectively if it includes equations represented in Latex, rather than just the text converted from equations.
-      
-      - layout: top-middle
-        title: translateDnD
-        link: https://github.com/aeolian83/translateDnD
-        # link_text: Project Website
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          - A corpus of code for translating untranslated dialogues in D&D-style games.
-          - A corpus of code for fine-tuning open-source LLMs using QLoRA.
-          - Fine-tuning polyglot-ko-1.3b with the long text Korean-English translation database quarelike/sharegpt_deepl_ko_translation.
-          - Implementing colloquial language by further training a model fine-tuned for English-to-Korean translation.
+    - title: Projects # Title for the section
+      layout: list # Type of content section (list/text)
+      content:
+          - layout: top-middle
+            title: Paper_translator
+            link: https://github.com/aeolian83/paper_translator
+            # link_text: Project Website
+            # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #   icon: fab fa-github
+            #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            # quote: >
+            #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+            description: | # this will include new lines to allow paragraphs
+                - Paper Translator is a code that translates academic papers using mathpix and chatGPT APIs. It was developed to address various issues such as a significant drop in translation quality and reduced readability of equations that occur when academic papers are fully translated through services like DeepL or Google Translator.
+                - When fully translating a paper, a major factor that reduces readability is the improper OCR recognition of images and equations, leading to issues when recreating the document post-translation. Mathpix excels in the OCR process by accurately recognizing images and equations, and converting them into high-quality Latex or Markdown. Additionally, when an article contains equations, the fundamental idea of this code is to use GPT-4, which translates the article more effectively if it includes equations represented in Latex, rather than just the text converted from equations.
 
-      - layout: top-middle
-        title: Multi Neural Machine Translation for English to Korean Dialect
-        link: github.com/seuyon0101/saturi_lab_multi_nmt_low_resource
-        # link_text: Project Website
-        additional_links:
-          - title:  seuyon0101/saturi_lab_multi_nmt_low_resource
-            icon: fab fa-github
-            url: https://github.com/seuyon0101/saturi_lab_multi_nmt_low_resource
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          - The Sauturi Lab is a group dedicated to researching and writing papers on a multi NMT (Neural Machine Translation) model that translates English into five regional dialects in Korea (Chungcheong, Jeju, Gangwon, Gyeongsang, Jeolla).
-          - This group explores one-to-many translation methods related to Low-Resource Languages (LRL) and conducts experiments based on hypotheses.
-          - The project has social value as it can contribute to language preservation in Korea, and it provides an opportunity to contribute to the necessity and advancement of Korean LRL research.
+          - layout: top-middle
+            title: translateDnD
+            link: https://github.com/aeolian83/translateDnD
+            # link_text: Project Website
+            # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #   icon: fab fa-github
+            #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            # quote: >
+            #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+            description: | # this will include new lines to allow paragraphs
+                - A corpus of code for translating untranslated dialogues in D&D-style games.
+                - A corpus of code for fine-tuning open-source LLMs using QLoRA.
+                - Fine-tuning polyglot-ko-1.3b with the long text Korean-English translation database quarelike/sharegpt_deepl_ko_translation.
+                - Implementing colloquial language by further training a model fine-tuned for English-to-Korean translation.
 
-      - layout: top-middle
-        title: AI Contest for Classifying wallpapering
-        link: https://dacon.io/competitions/official/236082/overview/description
-        # link_text: Project Website
-        # additional_links:
-        #   - title:  seuyon0101/saturi_lab_multi_nmt_low_resource
-        #     icon: fab fa-github
-        #     url: https://github.com/seuyon0101/saturi_lab_multi_nmt_low_resource
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          - Development competition for a total of 19 types of wallpapering fail case AI models.
-          - Improving model performance through data augmentation and weighted sampling during training.
-          - Comparing various image detection models such as EfficientNet, ResNet, and ConNext to derive the optimal model.
-          - 43rd place out of 1018 teams (Team name: MDAO1)[leaderboard](https://dacon.io/competitions/official/236082/leaderboard)
+          - layout: top-middle
+            title: Multi Neural Machine Translation for English to Korean Dialect
+            link: github.com/seuyon0101/saturi_lab_multi_nmt_low_resource
+            # link_text: Project Website
+            additional_links:
+                - title: seuyon0101/saturi_lab_multi_nmt_low_resource
+                  icon: fab fa-github
+                  url: https://github.com/seuyon0101/saturi_lab_multi_nmt_low_resource
+                # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+                #   icon: fab fa-github
+                #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            # quote: >
+            #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+            description: | # this will include new lines to allow paragraphs
+                - The Sauturi Lab is a group dedicated to researching and writing papers on a multi NMT (Neural Machine Translation) model that translates English into five regional dialects in Korea (Chungcheong, Jeju, Gangwon, Gyeongsang, Jeolla).
+                - This group explores one-to-many translation methods related to Low-Resource Languages (LRL) and conducts experiments based on hypotheses.
+                - The project has social value as it can contribute to language preservation in Korea, and it provides an opportunity to contribute to the necessity and advancement of Korean LRL research.
 
-      - layout: top-middle
-        title: Implementing a Robust Object Picking Algorithm(Robust Object Picking Algorithm 구현)
-        link: https://youtu.be/srv-g49sDUk
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: https://github.com/AIFFEL-Robust/ffb6d_project_final
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        #   이 프로젝트는 모두연(https://modulabs.co.kr/)의 Deep Learning 교육과정의 일환입니다. 산업분야에서 사용하는 로봇의 install과정을 단축시키기 위해 6D Pose Estimation모델의 연구가 활발합니다. 컴퓨터가 직접 물체의 위치와 방향을 인식하기 위한 Deep Learnig 모델인 6D Pose Estimation모델을 조금더 간편하게 사용하고 훈련시키는 방법을 연구하기 위한 프로젝트입니다. 
+          - layout: top-middle
+            title: AI Contest for Classifying wallpapering
+            link: https://dacon.io/competitions/official/236082/overview/description
+            # link_text: Project Website
+            # additional_links:
+            #   - title:  seuyon0101/saturi_lab_multi_nmt_low_resource
+            #     icon: fab fa-github
+            #     url: https://github.com/seuyon0101/saturi_lab_multi_nmt_low_resource
+            # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #   icon: fab fa-github
+            #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            # quote: >
+            #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+            description: | # this will include new lines to allow paragraphs
+                - Development competition for a total of 19 types of wallpapering fail case AI models.
+                - Improving model performance through data augmentation and weighted sampling during training.
+                - Comparing various image detection models such as EfficientNet, ResNet, and ConNext to derive the optimal model.
+                - 43rd place out of 1018 teams (Team name: MDAO1)[leaderboard](https://dacon.io/competitions/official/236082/leaderboard)
 
-        description: | # this will include new lines to allow paragraphs
-          - This project is part of the Deep Learning education program offered by [ModuLabs](https://modulabs.co.kr/)(https://modulabs.co.kr/). There is active research on 6D Pose Estimation models to expedite the installation process of robots used in the industrial field. The project aims to explore methods for simplifying the use and training of Deep Learning models, specifically the 6D Pose Estimation model, which enables computers to directly perceive the position and orientation of objects.
-          - The FFB6D model, which is one of the 6D Pose Estimation models, has been modified based on it, and the modifications have been made to make it applicable with other Depth Cameras, as long as the Camera Parameters are provided, instead of the Depth Camera used by the original model.
-          - I was responsible for modifying the model's code and conducting model training as part of the project.
+          - layout: top-middle
+            title: Implementing a Robust Object Picking Algorithm(Robust Object Picking Algorithm 구현)
+            link: https://youtu.be/srv-g49sDUk
+            # link_text: Project Website
+            additional_links:
+                - title: sproogen/modern-resume-theme
+                  icon: fab fa-github
+                  url: https://github.com/AIFFEL-Robust/ffb6d_project_final
+                # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+                #   icon: fab fa-github
+                #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            # quote: >
+            #   이 프로젝트는 모두연(https://modulabs.co.kr/)의 Deep Learning 교육과정의 일환입니다. 산업분야에서 사용하는 로봇의 install과정을 단축시키기 위해 6D Pose Estimation모델의 연구가 활발합니다. 컴퓨터가 직접 물체의 위치와 방향을 인식하기 위한 Deep Learnig 모델인 6D Pose Estimation모델을 조금더 간편하게 사용하고 훈련시키는 방법을 연구하기 위한 프로젝트입니다.
 
+            description: | # this will include new lines to allow paragraphs
+                - This project is part of the Deep Learning education program offered by [ModuLabs](https://modulabs.co.kr/)(https://modulabs.co.kr/). There is active research on 6D Pose Estimation models to expedite the installation process of robots used in the industrial field. The project aims to explore methods for simplifying the use and training of Deep Learning models, specifically the 6D Pose Estimation model, which enables computers to directly perceive the position and orientation of objects.
+                - The FFB6D model, which is one of the 6D Pose Estimation models, has been modified based on it, and the modifications have been made to make it applicable with other Depth Cameras, as long as the Camera Parameters are provided, instead of the Depth Camera used by the original model.
+                - I was responsible for modifying the model's code and conducting model training as part of the project.
 
-  - title: Skills # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Languge
-      
-        description: | # this will include new lines to allow paragraphs
-            - Python
+    - title: Skills # Title for the section
+      layout: list # Type of content section (list/text)
+      content:
+          - layout: left
+            title: Languge
 
-      - layout: left
-        title: Framework
-      
-        description: | # this will include new lines to allow paragraphs
-            - TensorFlow
-            - PyTorch
-      
-      - layout: left
-        title: OS
-      
-        description: | # this will include new lines to allow paragraphs
-            - Window, WSL
-            - Linux, GCP
-  
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Aiffel
-        link: https://www.aiffel.io/
-        caption: 2022 - 2023
-        sub_title: Deep Learning Cource
-  
-        description: | # this will include new lines to allow paragraphs
-          - This educational program is part of [Modulabs](https://modulabs.co.kr)' Deep Learning curriculum. It covers a broad range of topics in machine learning and data science, with a focus on computer vision deep learning and natural language processing deep learning using CNN and RNN as foundational concepts. Additionally, I learned the fundamentals of generative models through DCGAN and pursued advanced studies in the fields of computer vision (CV) and natural language processing (NLP).
-          - Personally, I chose CV and learned various backbone models used in CV tasks such as ResNet. I also studied OCR (Optical Character Recognition) and YOLO. With the assistance of other colleagues, I then delved into the NLP course, learning about transformer models and the Hugging Face library used for handling such models.
+            description: | # this will include new lines to allow paragraphs
+                - Python
 
-      - layout: top-middle
-        title: Sogang University
-        caption: 2002 - 2012
-        sub_title: History, Law
-        quote: >
-          Sogang University is an educational institution founded by the Society of Jesus based on the Catholic faith and the educational philosophy of the Jesuits in accordance with the educational spirit of South Korea.
-        description: | # this will include new lines to allow paragraphs
-          - Through my college life, I have made a commitment to work for society, and the desire to change the world through deep learning is an extension of this mindset.
+          - layout: left
+            title: Framework
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Seoul Metropolitan Seodaemun-gu Office
-        link: https://www.sdm.go.kr/
-        # link_text: boringcompany.com
-        sub_title: Community Organizer, Consultant
-        caption: 2019 - 2022
-        quote: >
-          The resident councils promoted by the Seoul Metropolitan Government aim to enhance the governance between residents and the administration, allowing residents to directly plan and implement policies according to their preferences.
-        description: | # this will include new lines to allow paragraphs
-          - Based on specialized knowledge in governance, I served as a community organizer and advisor, mediating between residents and administration, and working to enhance understanding of governance systems.
+            description: | # this will include new lines to allow paragraphs
+                - TensorFlow
+                - PyTorch
 
-      - layout: left
-        title: WOW Culture LAB
-        link: http://wowlab.or.kr/
-        # link_text: boringcompany.com
-        sub_title: Event Designer
-        caption: 2016 - 2018
-        quote: >
-          Wow Culture Lab is a social enterprise that plans and organizes various cultural events, including the renowned Wow Book Festival, one of Seoul's prominent book festivals.
-        description: | # this will include new lines to allow paragraphs
-          - As a Event Designer, I organized and executed the Wow Book Festival, along with various other cultural events.
+          - layout: left
+            title: OS
 
-      - layout: left
-        title: Seoul Welfare Foundation
-        link: https://welfare.seoul.kr/
-        # link_text: boringcompany.com
-        sub_title: Community Organizer
-        caption: 2013 - 2014
-        quote: >
-          Seoul Welfare Foundation is an organization dedicated to leading Seoul's welfare policies and conducting research on welfare models that can be implemented in the public sector.
-        description: | # this will include new lines to allow paragraphs
-          - I have worked as an organizational activist for resident organizations through the "Welfare Ecosystem Development Project for Local Areas" aimed at restoring community relationships in disconnected urban areas.
-      
-      - layout: left
-        title: National Health Insurance Service
-        link: https://www.nhis.or.kr/
-        # link_text: boringcompany.com
-        sub_title: Intern
-        caption: 2012
-        quote: >
-          The National Health Insurance Service is a key organization that operates the medical insurance system in South Korea, which adopts a public health insurance system.
-        description: | # this will include new lines to allow paragraphs
-          - Through this internship, I have firmly solidified my determination to work for the betterment of society.
+            description: | # this will include new lines to allow paragraphs
+                - Window, WSL
+                - Linux, GCP
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      - I always enjoy learning new things, but at the same time, I appreciate the beauty of the old. I aspire to find a path where AI can lead modern society in a positive direction, drawing upon my knowledge of humanities.
+    - title: Education # Title for the section
+      layout: list # Type of content section (list/text)
+      content:
+          - layout: top-middle
+            title: Aiffel
+            link: https://www.aiffel.io/
+            caption: 2022 - 2023
+            sub_title: Deep Learning Cource
 
-      - I have been active in 'Our Neighborhood Youth Association', which is based in Mangwon-dong, Mapo-gu, Seoul, for the past 10 years. 'Our Neighborhood Youth Association' has been engaged in community-based volunteer activities and operated a youth alternative space called 'Beyond Imagination' near Hongik University, a cultural landmark in Seoul. I also served as the president of 'Our Neighborhood Youth Association' for two years.[[link](https://n.news.naver.com/mnews/article/047/0002078167?sid=103)]
+            description: | # this will include new lines to allow paragraphs
+                - This educational program is part of [Modulabs](https://modulabs.co.kr)' Deep Learning curriculum. It covers a broad range of topics in machine learning and data science, with a focus on computer vision deep learning and natural language processing deep learning using CNN and RNN as foundational concepts. Additionally, I learned the fundamentals of generative models through DCGAN and pursued advanced studies in the fields of computer vision (CV) and natural language processing (NLP).
+                - Personally, I chose CV and learned various backbone models used in CV tasks such as ResNet. I also studied OCR (Optical Character Recognition) and YOLO. With the assistance of other colleagues, I then delved into the NLP course, learning about transformer models and the Hugging Face library used for handling such models.
 
-      - I also appreciate the mathematical depth and ever-changing nature of baseball as a sport.
+          - layout: top-middle
+            title: Sogang University
+            caption: 2002 - 2012
+            sub_title: History, Law
+            quote: >
+                Sogang University is an educational institution founded by the Society of Jesus based on the Catholic faith and the educational philosophy of the Jesuits in accordance with the educational spirit of South Korea.
+            description: | # this will include new lines to allow paragraphs
+                - Through my college life, I have made a commitment to work for society, and the desire to change the world through deep learning is an extension of this mindset.
 
+    - title: Experience # Title for the section
+      layout: list # Type of content section (list/text)
+      content:
+          - layout: left
+            title: Seoul Metropolitan Seodaemun-gu Office
+            link: https://www.sdm.go.kr/
+            # link_text: boringcompany.com
+            sub_title: Community Organizer, Consultant
+            caption: 2019 - 2022
+            quote: >
+                The resident councils promoted by the Seoul Metropolitan Government aim to enhance the governance between residents and the administration, allowing residents to directly plan and implement policies according to their preferences.
+            description: | # this will include new lines to allow paragraphs
+                - Based on specialized knowledge in governance, I served as a community organizer and advisor, mediating between residents and administration, and working to enhance understanding of governance systems.
+
+          - layout: left
+            title: WOW Culture LAB
+            link: http://wowlab.or.kr/
+            # link_text: boringcompany.com
+            sub_title: Event Designer
+            caption: 2016 - 2018
+            quote: >
+                Wow Culture Lab is a social enterprise that plans and organizes various cultural events, including the renowned Wow Book Festival, one of Seoul's prominent book festivals.
+            description: | # this will include new lines to allow paragraphs
+                - As a Event Designer, I organized and executed the Wow Book Festival, along with various other cultural events.
+
+          - layout: left
+            title: Seoul Welfare Foundation
+            link: https://welfare.seoul.kr/
+            # link_text: boringcompany.com
+            sub_title: Community Organizer
+            caption: 2013 - 2014
+            quote: >
+                Seoul Welfare Foundation is an organization dedicated to leading Seoul's welfare policies and conducting research on welfare models that can be implemented in the public sector.
+            description: | # this will include new lines to allow paragraphs
+                - I have worked as an organizational activist for resident organizations through the "Welfare Ecosystem Development Project for Local Areas" aimed at restoring community relationships in disconnected urban areas.
+
+          - layout: left
+            title: National Health Insurance Service
+            link: https://www.nhis.or.kr/
+            # link_text: boringcompany.com
+            sub_title: Intern
+            caption: 2012
+            quote: >
+                The National Health Insurance Service is a key organization that operates the medical insurance system in South Korea, which adopts a public health insurance system.
+            description: | # this will include new lines to allow paragraphs
+                - Through this internship, I have firmly solidified my determination to work for the betterment of society.
+
+    - title: A Little More About Me
+      layout: text
+      content: | # this will include new lines to allow paragraphs
+          - I always enjoy learning new things, but at the same time, I appreciate the beauty of the old. I aspire to find a path where AI can lead modern society in a positive direction, drawing upon my knowledge of humanities.
+
+          - I have been active in 'Our Neighborhood Youth Association', which is based in Mangwon-dong, Mapo-gu, Seoul, for the past 10 years. 'Our Neighborhood Youth Association' has been engaged in community-based volunteer activities and operated a youth alternative space called 'Beyond Imagination' near Hongik University, a cultural landmark in Seoul. I also served as the president of 'Our Neighborhood Youth Association' for two years.[[link](https://n.news.naver.com/mnews/article/047/0002078167?sid=103)]
+
+          - I also appreciate the mathematical depth and ever-changing nature of baseball as a sport.
 
 # Footer
 footer_show_references: true
@@ -251,8 +249,8 @@ footer_show_references: true
 remote_theme: sproogen/resume-theme
 
 sass:
-  sass_dir: _sass
-  style: compressed
+    sass_dir: _sass
+    style: compressed
 
 plugins:
- - jekyll-seo-tag
+    - jekyll-seo-tag
