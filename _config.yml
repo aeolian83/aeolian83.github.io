@@ -155,8 +155,8 @@ content:
             description: | # this will include new lines to allow paragraphs
                 - TensorFlow
                 - PyTorch
-                - lanchain
-                - scikit-learn, numpy, matplotlib, pandas
+                - Lanchain
+                - Scikit-learn, numpy, matplotlib, pandas
 
           - layout: left
             title: OS
