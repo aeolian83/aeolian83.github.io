@@ -156,7 +156,7 @@ content:
                 - TensorFlow
                 - PyTorch
                 - Lanchain
-                - Scikit-learn, numpy, matplotlib, pandas
+                - Scikit-learn, Numpy, Matplotlib, Pandas
 
           - layout: left
             title: OS
