@@ -10,7 +10,7 @@ name: Jungki Son
 #title: Senior Network System Administrator
 email: aeolian83@gmail.com
 website: github.com/aeolian83/
-blog: https://velog.io/@aeolian83/posts
+blog: velog.io/@aeolian83/posts
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -155,6 +155,8 @@ content:
             description: | # this will include new lines to allow paragraphs
                 - TensorFlow
                 - PyTorch
+                - lanchain
+                - scikit-learn, numpy, matplotlib, pandas
 
           - layout: left
             title: OS
