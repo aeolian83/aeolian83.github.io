@@ -49,8 +49,8 @@ linkedin_username: aeolian83
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-    Hi, my name's Jungki Son and 
-    I had an unexpected opportunity to change my career while living abroad, during which I learned a great deal in a short amount of time. This was largely due to my passion and interest in AI. I firmly believe that AI will eventually bring positive changes to the world. I am always studying AI with a spirit of challenge.
+    - Hi, my name's Jungki Son
+    - I had an unexpected opportunity to change my career while living abroad, during which I learned a great deal in a short amount of time. This was largely due to my passion and interest in AI. I firmly believe that AI will eventually bring positive changes to the world. I am always studying AI with a spirit of challenge.
 
 content:
     - title: Projects # Title for the section
