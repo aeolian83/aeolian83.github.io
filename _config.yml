@@ -50,7 +50,7 @@ linkedin_username: aeolian83
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
     Hi, my name's Jungki Son and 
-    I am interested in using deep learning to change the world. I have an interest in deep learning models based on convolutional layers, transformer-based natural language processing models, and generative models. I am expanding my understanding through personal projects little by little.
+    I had an unexpected opportunity to change my career while living abroad, during which I learned a great deal in a short amount of time. This was largely due to my passion and interest in AI. I firmly believe that AI will eventually bring positive changes to the world. I am always studying AI with a spirit of challenge.
 
 content:
     - title: Projects # Title for the section
@@ -168,6 +168,15 @@ content:
     - title: Education # Title for the section
       layout: list # Type of content section (list/text)
       content:
+          - layout: top-middle
+            title: Hanyang Cyber Univercity
+            link: http://www.hycu.ac.kr/
+            caption: 2024 - Present
+            sub_title: Applied Software Engineering
+
+            description: | # this will include new lines to allow paragraphs
+                - I learned about ML/AI through educational institutions, but I decided to further my studies for a more in-depth education. I am studying the basics of computer science and the theoretical background underlying ML/AI, and on top of that, I am acquiring practical skills.
+
           - layout: top-middle
             title: Aiffel
             link: https://www.aiffel.io/
