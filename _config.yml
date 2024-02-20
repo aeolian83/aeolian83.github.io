@@ -155,8 +155,9 @@ content:
             description: | # this will include new lines to allow paragraphs
                 - TensorFlow
                 - PyTorch
-                - Lanchain
+                - Langchain
                 - Scikit-learn, Numpy, Matplotlib, Pandas
+                - Strealit
 
           - layout: left
             title: OS
