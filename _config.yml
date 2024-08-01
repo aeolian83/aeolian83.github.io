@@ -85,6 +85,19 @@ content:
                 - Implementing colloquial language by further training a model fine-tuned for English-to-Korean translation.
 
           - layout: top-middle
+            title: llm practice
+            link: https://github.com/aeolian83/llm_practice
+            # link_text: Project Website
+            # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #   icon: fab fa-github
+            #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            # quote: >
+            #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+            description: | # this will include new lines to allow paragraphs
+                - Implementation and practice of various techniques related to LLM
+                - Chat vector transfer, custom evaluation, including SFT
+
+          - layout: top-middle
             title: Multi Neural Machine Translation for English to Korean Dialect
             link: github.com/seuyon0101/saturi_lab_multi_nmt_low_resource
             # link_text: Project Website
@@ -153,8 +166,9 @@ content:
             title: Framework
 
             description: | # this will include new lines to allow paragraphs
-                - TensorFlow
+                - Transformers(Huggingface)
                 - PyTorch
+                - TensorFlow
                 - Langchain
                 - Scikit-learn, Numpy, Matplotlib, Pandas
                 - Strealit
