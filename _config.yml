@@ -95,7 +95,8 @@ content:
             #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
             description: | # this will include new lines to allow paragraphs
                 - Implementation and practice of various techniques related to LLM
-                - Chat vector transfer, custom evaluation, including SFT
+                - Implementation and practice of techniques such as SFT, chat vector transfer, and custom evaluation
+                - Practice fine-tuning models that can perform SFT within 24GB
 
           - layout: top-middle
             title: Multi Neural Machine Translation for English to Korean Dialect
