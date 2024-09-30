@@ -65,7 +65,7 @@ content:
             # quote: >
             #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
             description: | # this will include new lines to allow paragraphs
-                - This paper proposes a method to improve readability in machine translation of academic or technical texts by displaying the original term in parentheses next to the translated term. To achieve this, we used direct distillation through a multi-agent prompt setup to create a dataset from a large model and compared the fine-tuning results of small LLMs and NMT models.
+                - This paper proposes a method to improve readability in machine translation of academic or technical texts by displaying the original term in parentheses next to the translated term. To achieve this, we used direct distillation with a multi-agent prompt setup to create a dataset from LLMs and compared the fine-tuning results of small LLMs and NMT models.
                 - In this paper, I was responsible for the key idea and the sLM fine-tuning experiments using QLoRA.
                 - WMT 2024 in EMNLP 2024(https://www2.statmt.org/wmt24/) accepted
 
