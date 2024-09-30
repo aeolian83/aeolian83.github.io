@@ -51,7 +51,6 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
     - Hi, my name's Jungki Son, I had an unexpected opportunity to change my career while living abroad, during which I learned a great deal in a short amount of time. This was largely due to my passion and interest in AI. I firmly believe that AI will eventually bring positive changes to the world. I am always studying AI with a spirit of challenge.
     - Recently, I am interested in app development using Transformer-based LLMs (Large Language Models), as well as multimodal models using Vision Transformers.
-    - WMT 2024 in EMNLP 2024(https://www2.statmt.org/wmt24/) accepted
 
 content:
     - title: Projects # Title for the section
@@ -69,6 +68,7 @@ content:
             description: | # this will include new lines to allow paragraphs
                 - This paper proposes a method to improve readability in machine translation of academic or technical texts by displaying the original term in parentheses next to the translated term. To achieve this, we used direct distillation through a multi-agent prompt setup to create a dataset from a large model and compared the fine-tuning results of small LLMs and NMT models.
                 - In this paper, I was responsible for the key idea and the sLM fine-tuning experiments using QLoRA.
+                - WMT 2024 in EMNLP 2024(https://www2.statmt.org/wmt24/) accepted
 
           - layout: top-middle
             title: Paper_translator
