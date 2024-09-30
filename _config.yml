@@ -57,6 +57,19 @@ content:
       layout: list # Type of content section (list/text)
       content:
           - layout: top-middle
+            title: Efficient Technical Term Translation; A Knowledge Distillation Approach for Parenthetical Terminology
+            link:
+            # link_text: Project Website
+            # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #   icon: fab fa-github
+            #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            # quote: >
+            #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+            description: | # this will include new lines to allow paragraphs
+                - This paper proposes a method to improve readability in machine translation of academic or technical texts by displaying the original term in parentheses next to the translated term. To achieve this, we used direct distillation through a multi-agent prompt setup to create a dataset from a large model and compared the fine-tuning results of small LLMs and NMT models.
+                - In this paper, I was responsible for the key idea and the sLM fine-tuning experiments using QLoRA.
+
+          - layout: top-middle
             title: Paper_translator
             link: https://github.com/aeolian83/paper_translator
             # link_text: Project Website
