@@ -185,7 +185,7 @@ content:
                 - Transformers(Huggingface)
                 - PyTorch
                 - TensorFlow
-                - Langchain
+                - Langchain, LanGraph
                 - Scikit-learn, Numpy, Matplotlib, Pandas
                 - Strealit
 
