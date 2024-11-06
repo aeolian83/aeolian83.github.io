@@ -48,8 +48,10 @@ linkedin_username: aeolian83
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-    - Hi, my name's Jungki Son, I had an unexpected opportunity to change my career while living abroad, during which I learned a great deal in a short amount of time. This was largely due to my passion and interest in AI. I firmly believe that AI will eventually bring positive changes to the world. I am always studying AI with a spirit of challenge.
-    - Recently, I am interested in app development using Transformer-based LLMs (Large Language Models), as well as multimodal models using Vision Transformers.
+    - My name is Jungki Son, and I am deeply interested in Generative AI and Deep Learning.
+    - Spirit of Challenge - Currently, I reside in Abu Dhabi. Although I never anticipated living abroad, I am here, driven by a willingness to take on challenges when needed. My background is in the humanities, and I pursued a career in that field. However, to expand my opportunities overseas, I made the bold decision to shift my career path and immerse myself in the study of artificial intelligence.
+    - Adaptability - I possess a strong ability to adapt to new fields. While my academic and professional background is in the humanities, I have proactively learned numerous unfamiliar concepts to study AI and engineering. I am also currently pursuing a degree in computer science to strengthen my technical foundation further.
+    - AI Specialist - I have extensive expertise in large language models (LLMs), particularly focusing on open-source small language models (sLMs). I am skilled in performing SFT and DPO using GPUs and possess optimization capabilities. Additionally, I am interested and skilled in computer vision, specifically with diffusion models.
 
 content:
     - title: Projects # Title for the section
