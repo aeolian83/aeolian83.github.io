@@ -48,15 +48,30 @@ linkedin_username: aeolian83
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-    - My name is Jungki Son, and I am deeply interested in Generative AI and Deep Learning.
-    - Spirit of Challenge - Currently, I reside in Abu Dhabi. Although I never anticipated living abroad, I am here, driven by a willingness to take on challenges when needed. My background is in the humanities, and I pursued a career in that field. However, to expand my opportunities overseas, I made the bold decision to shift my career path and immerse myself in the study of artificial intelligence.
-    - Adaptability - I possess a strong ability to adapt to new fields. While my academic and professional background is in the humanities, I have proactively learned numerous unfamiliar concepts to study AI and engineering. I am also currently pursuing a degree in computer science to strengthen my technical foundation further.
-    - AI Specialist - I have extensive expertise in large language models (LLMs), particularly focusing on open-source small language models (sLMs). I am skilled in performing SFT and DPO using GPUs and possess optimization capabilities. Additionally, I am interested and skilled in computer vision, specifically with diffusion models.
+    - 제 이름은 손정기입니다. 저는 생성형 AI와 딥러닝 분야에 깊은 관심을 가지고 있습니다.  
+    - 도전 정신 – 현재 저는 아부다비에 거주하고 있습니다. 해외 생활은 예상치 못한 일이었지만, 필요할 때마다 도전을 받아들이는 자세로 이곳에 오게 되었습니다. 인문학을 전공하고 관련 분야에서 경력을 쌓았으나, 해외에서 더 넓은 기회를 찾기 위해 과감히 인공지능 분야로 커리어를 전환하는 결정을 내렸습니다.  
+    - 적응력 – 새로운 분야에 빠르게 적응하는 능력을 갖추고 있습니다. 인문학 전공자였지만, AI와 엔지니어링을 공부하기 위해 많은 낯선 개념들을 주도적으로 학습해왔습니다. 현재는 기술적 기반을 더욱 탄탄히 다지기 위해 컴퓨터공학 학위 과정도 병행하고 있습니다.  
+    - AI 전문가 – 특히 오픈소스 소형 언어모델(sLMs)을 중심으로 대규모 언어모델(LLMs)에 대한 이해를 갖고 있습니다. GPU를 활용한 SFT 및 DPO 수행관한 역량 또한 갖추고 있습니다. 추가로, 디퓨전 모델을 기반으로 한 컴퓨터 비전 분야에도 관심과 기술력을 갖추고 있습니다.
 
 content:
     - title: Projects # Title for the section
       layout: list # Type of content section (list/text)
       content:
+          - layout: top-middle
+            title: WithPet
+            link: https://github.com/PrompTartLab/WithPet
+            # link_text: Project Website
+            # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #   icon: fab fa-github
+            #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            # quote: >
+            #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+            description: | # this will include new lines to allow paragraphs
+                - LangGraph를 기반으로 RAG(Retrieval-Augmented Generation)를 구현한 서비스를 실험적으로 적용해본 프로젝트입니다.
+                - RAG와 Text-to-SQL 기술을 활용하여 정제된 테이블 형태의 데이터로부터 필요한 정보를 추출하고, 이를 기반으로 답변을 생성하는 기능을 구현하였습니다.
+                - GUI는 Streamlit을 이용해 개발하였으며, OpenAI API를 통해 모델 연동 및 답변 생성을 구현하였습니다.
+                - 초기 개발 단계에서는 MVP(Minimum Viable Product)를 구축하였으며, 이후 GUI 적용 및 버그 수정(Bug Fix) 작업을 담당하였습니다. 이후 추가 기능에 대한 개발을 진행중에 있습니다.
+
           - layout: top-middle
             title: Efficient Technical Term Translation; A Knowledge Distillation Approach for Parenthetical Terminology
             link: https://arxiv.org/abs/2410.00683
@@ -67,9 +82,9 @@ content:
             # quote: >
             #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
             description: | # this will include new lines to allow paragraphs
-                - This paper proposes a method to improve readability in machine translation of academic or technical texts by displaying the original term in parentheses next to the translated term. To achieve this, we used direct distillation with a multi-agent prompt setup to create a dataset from LLMs and compared the fine-tuning results of small LLMs and NMT models.
-                - In this paper, I was responsible for the key idea and the sLM fine-tuning experiments using QLoRA.
-                - WMT 2024 in EMNLP 2024(https://www2.statmt.org/wmt24/) accepted
+                - 이 논문은 학술 또는 기술 텍스트의 기계번역에서 가독성을 향상시키기 위해, 번역된 용어 옆에 원어(term)를 괄호 안에 함께 표기하는 방법을 제안합니다. 이를 위해 다중 에이전트 프롬프트 설정을 활용한 직접 증류(direct distillation) 방식을 사용하여 LLM으로부터 데이터셋을 생성하고, 소형 LLM(sLM)과 NMT 모델의 파인튜닝 결과를 비교했습니다.
+                - 본 논문에서 저는 핵심 아이디어를 제안하고, QLoRA를 활용한 소형 LLM(sLM) 파인튜닝 실험을 담당했습니다.
+                - 본 연구는 EMNLP 2024의 WMT 2024(https://www2.statmt.org/wmt24/)에 채택되었습니다.
 
           - layout: top-middle
             title: Paper_translator
@@ -81,8 +96,8 @@ content:
             # quote: >
             #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
             description: | # this will include new lines to allow paragraphs
-                - Paper Translator is a code that translates academic papers using mathpix and chatGPT APIs. It was developed to address various issues such as a significant drop in translation quality and reduced readability of equations that occur when academic papers are fully translated through services like DeepL or Google Translator.
-                - When fully translating a paper, a major factor that reduces readability is the improper OCR recognition of images and equations, leading to issues when recreating the document post-translation. Mathpix excels in the OCR process by accurately recognizing images and equations, and converting them into high-quality Latex or Markdown. Additionally, when an article contains equations, the fundamental idea of this code is to use GPT-4, which translates the article more effectively if it includes equations represented in Latex, rather than just the text converted from equations.
+                - Paper Translator는 Mathpix와 ChatGPT API를 활용하여 학술 논문을 번역하는 코드입니다. 이 코드는 DeepL이나 Google 번역기와 같은 서비스를 통해 논문을 전체 번역할 때 발생하는 번역 품질 저하 및 수식 가독성 감소 등의 다양한 문제를 해결하기 위해 개발되었습니다.
+                - 논문을 전체 번역할 때 가독성을 크게 저하시키는 주요 요인 중 하나는 이미지와 수식의 OCR 인식이 부정확하게 이루어져, 번역 후 문서를 재구성하는 과정에서 문제가 발생하는 것입니다. Mathpix는 OCR 과정에서 이미지와 수식을 정확하게 인식하고 이를 고품질 Latex나 Markdown으로 변환하는 데 강점을 보입니다. 또한, 논문에 수식이 포함되어 있을 경우, 이 코드는 단순히 수식이 텍스트로 변환된 상태에서 번역하는 것보다 Latex로 표현된 수식과 함께 번역하는 것이 훨씬 효과적이라는 점에 착안하여, GPT-4를 활용해 보다 품질 높은 번역을 수행하는 것을 기본 아이디어로 삼고 있습니다.
 
           - layout: top-middle
             title: translateDnD
@@ -94,10 +109,10 @@ content:
             # quote: >
             #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
             description: | # this will include new lines to allow paragraphs
-                - A corpus of code for translating untranslated dialogues in D&D-style games.
-                - A corpus of code for fine-tuning open-source LLMs using QLoRA.
-                - Fine-tuning polyglot-ko-1.3b with the long text Korean-English translation database quarelike/sharegpt_deepl_ko_translation.
-                - Implementing colloquial language by further training a model fine-tuned for English-to-Korean translation.
+                - D&D 스타일 게임에서 번역되지 않은 대사를 번역하기 위한 코드 코퍼스.  
+                - QLoRA를 활용하여 오픈소스 LLM을 파인튜닝하기 위한 코드 코퍼스.  
+                - 긴 문장 한국어-영어 번역 데이터베이스인 quarelike/sharegpt_deepl_ko_translation을 사용하여 polyglot-ko-1.3b 모델을 파인튜닝.  
+                - 영어→한국어 번역에 맞춰 파인튜닝된 모델을 추가 학습하여 구어체 표현 구현.
 
           - layout: top-middle
             title: llm practice
@@ -109,9 +124,9 @@ content:
             # quote: >
             #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
             description: | # this will include new lines to allow paragraphs
-                - Implementation and practice of various techniques related to LLM
-                - Implementation and practice of techniques such as SFT, chat vector transfer, and custom evaluation
-                - Practice fine-tuning models that can perform SFT within 24GB
+                - LLM 관련 다양한 기술의 구현 및 실습  
+                - SFT, 챗 벡터 전이, 커스텀 평가와 같은 기술의 구현 및 실습  
+                - 24GB 메모리 내에서 SFT가 가능한 모델 파인튜닝 실습
 
           - layout: top-middle
             title: Multi Neural Machine Translation for English to Korean Dialect
@@ -127,9 +142,9 @@ content:
             # quote: >
             #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
             description: | # this will include new lines to allow paragraphs
-                - The Sauturi Lab is a group dedicated to researching and writing papers on a multi NMT (Neural Machine Translation) model that translates English into five regional dialects in Korea (Chungcheong, Jeju, Gangwon, Gyeongsang, Jeolla).
-                - This group explores one-to-many translation methods related to Low-Resource Languages (LRL) and conducts experiments based on hypotheses.
-                - The project has social value as it can contribute to language preservation in Korea, and it provides an opportunity to contribute to the necessity and advancement of Korean LRL research.
+                - 사투리 연구소(Sauturi Lab)는 영어를 한국의 5개 지역 방언(충청, 제주, 강원, 경상, 전라)으로 번역하는 다중 NMT(Neural Machine Translation) 모델에 대해 연구하고 논문을 작성하는 그룹입니다.  
+                - 이 그룹은 저자원 언어(LRL, Low-Resource Languages) 관련 일대다(one-to-many) 번역 방법을 탐구하고, 다양한 가설을 바탕으로 실험을 진행하고 있습니다.  
+                - 본 프로젝트는 한국 내 언어 보존에 기여할 수 있다는 사회적 가치를 지니며, 한국어 저자원 언어 연구의 필요성과 발전에도 이바지할 수 있는 기회를 제공합니다.
 
           - layout: top-middle
             title: AI Contest for Classifying wallpapering
@@ -145,10 +160,10 @@ content:
             # quote: >
             #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
             description: | # this will include new lines to allow paragraphs
-                - Development competition for a total of 19 types of wallpapering fail case AI models.
-                - Improving model performance through data augmentation and weighted sampling during training.
-                - Comparing various image detection models such as EfficientNet, ResNet, and ConNext to derive the optimal model.
-                - 43rd place out of 1018 teams (Team name: MDAO1)[leaderboard](https://dacon.io/competitions/official/236082/leaderboard)
+                - 총 19종의 벽지 시공 실패 사례를 분류하는 AI 모델 개발 대회 참가  
+                - 데이터 증강 및 학습 시 가중 샘플링(weighted sampling)을 통해 모델 성능 향상  
+                - EfficientNet, ResNet, ConNext 등 다양한 이미지 분류 모델을 비교하여 최적 모델 도출  
+                - 1,018개 팀 중 43위 달성 (팀명: MDAO1) [리더보드 링크](https://dacon.io/competitions/official/236082/leaderboard)
 
           - layout: top-middle
             title: Implementing a Robust Object Picking Algorithm(Robust Object Picking Algorithm 구현)
@@ -165,9 +180,9 @@ content:
             #   이 프로젝트는 모두연(https://modulabs.co.kr/)의 Deep Learning 교육과정의 일환입니다. 산업분야에서 사용하는 로봇의 install과정을 단축시키기 위해 6D Pose Estimation모델의 연구가 활발합니다. 컴퓨터가 직접 물체의 위치와 방향을 인식하기 위한 Deep Learnig 모델인 6D Pose Estimation모델을 조금더 간편하게 사용하고 훈련시키는 방법을 연구하기 위한 프로젝트입니다.
 
             description: | # this will include new lines to allow paragraphs
-                - This project is part of the Deep Learning education program offered by [ModuLabs](https://modulabs.co.kr/)(https://modulabs.co.kr/). There is active research on 6D Pose Estimation models to expedite the installation process of robots used in the industrial field. The project aims to explore methods for simplifying the use and training of Deep Learning models, specifically the 6D Pose Estimation model, which enables computers to directly perceive the position and orientation of objects.
-                - The FFB6D model, which is one of the 6D Pose Estimation models, has been modified based on it, and the modifications have been made to make it applicable with other Depth Cameras, as long as the Camera Parameters are provided, instead of the Depth Camera used by the original model.
-                - I was responsible for modifying the model's code and conducting model training as part of the project.
+                - 이 프로젝트는 [모두의 연구소(ModuLabs)](https://modulabs.co.kr/)에서 제공하는 딥러닝 교육 프로그램의 일환으로 진행되었습니다. 산업 현장에서 사용되는 로봇의 설치 프로세스를 가속화하기 위해 6D Pose Estimation(6D 자세 추정) 모델에 대한 활발한 연구가 이루어지고 있으며, 본 프로젝트는 딥러닝 모델, 특히 물체의 위치와 방향을 컴퓨터가 직접 인식할 수 있게 하는 6D Pose Estimation 모델의 사용 및 학습을 간소화하는 방법을 탐구하는 것을 목표로 합니다.  
+                - 본 프로젝트에서는 6D Pose Estimation 모델 중 하나인 FFB6D 모델을 기반으로 수정 작업을 진행하였으며, 원래 모델이 사용한 Depth Camera에 한정되지 않고, 카메라 파라미터만 제공된다면 다른 Depth Camera와도 호환될 수 있도록 수정하였습니다.  
+                - 저는 본 프로젝트에서 모델 코드 수정 및 모델 학습을 담당하였습니다.
 
     - title: Skills # Title for the section
       layout: list # Type of content section (list/text)
@@ -206,7 +221,7 @@ content:
             sub_title: Applied Software Engineering
 
             description: | # this will include new lines to allow paragraphs
-                - I learned about ML/AI through educational institutions, but I decided to further my studies for a more in-depth education. I am studying the basics of computer science and the theoretical background underlying ML/AI, and on top of that, I am acquiring practical skills.
+                - 교육 기관을 통해 ML/AI를 배웠지만, 보다 심도 있는 학습을 위해 추가로 공부를 결심했습니다. 현재 컴퓨터 과학의 기초와 ML/AI의 이론적 배경을 학습하고 있으며, 이를 바탕으로 실질적인 실무 역량도 함께 쌓아가고 있습니다.
 
           - layout: top-middle
             title: Aiffel
@@ -215,17 +230,15 @@ content:
             sub_title: Deep Learning Cource
 
             description: | # this will include new lines to allow paragraphs
-                - This educational program is part of [Modulabs](https://modulabs.co.kr)' Deep Learning curriculum. It covers a broad range of topics in machine learning and data science, with a focus on computer vision deep learning and natural language processing deep learning using CNN and RNN as foundational concepts. Additionally, I learned the fundamentals of generative models through DCGAN and pursued advanced studies in the fields of computer vision (CV) and natural language processing (NLP).
-                - Personally, I chose CV and learned various backbone models used in CV tasks such as ResNet. I also studied OCR (Optical Character Recognition) and YOLO. With the assistance of other colleagues, I then delved into the NLP course, learning about transformer models and the Hugging Face library used for handling such models.
+                - 이 교육 프로그램은 [모두의 연구소(Modulabs)](https://modulabs.co.kr)의 딥러닝 커리큘럼의 일환으로 진행되었습니다. 머신러닝과 데이터 사이언스의 폭넓은 주제를 다루며, 특히 컴퓨터 비전 딥러닝과 자연어 처리 딥러닝 분야를 중심으로 CNN과 RNN을 기본 개념으로 삼아 학습했습니다. 또한, DCGAN을 통해 생성 모델(generative models)의 기본 개념을 익히고, 컴퓨터 비전(CV)과 자연어 처리(NLP) 분야의 심화 학습을 이어갔습니다.  
+                - 개인적으로는 컴퓨터 비전(CV) 분야를 선택하여 ResNet과 같은 다양한 백본(backbone) 모델들을 학습했으며, OCR(광학 문자 인식)과 YOLO(Object Detection) 관련 기술도 함께 공부했습니다. 이후 동료들의 도움을 받아 자연어 처리(NLP) 과정도 수강하며, 트랜스포머(transformer) 모델과 이를 다루는 Hugging Face 라이브러리에 대해 학습했습니다.
 
           - layout: top-middle
             title: Sogang University
             caption: 2002 - 2012
             sub_title: History, Law
-            quote: >
-                Sogang University is an educational institution founded by the Society of Jesus based on the Catholic faith and the educational philosophy of the Jesuits in accordance with the educational spirit of South Korea.
             description: | # this will include new lines to allow paragraphs
-                - Through my college life, I have made a commitment to work for society, and the desire to change the world through deep learning is an extension of this mindset.
+                - 대학 생활을 통해 사회에 기여하겠다는 다짐을 가지게 되었으며, 딥러닝을 통해 세상을 변화시키고자 하는 생각각은 이러한 마음가짐의 연장선에 있습니다.
 
     - title: Experience # Title for the section
       layout: list # Type of content section (list/text)
@@ -237,9 +250,9 @@ content:
             sub_title: Community Organizer, Consultant
             caption: 2019 - 2022
             quote: >
-                The resident councils promoted by the Seoul Metropolitan Government aim to enhance the governance between residents and the administration, allowing residents to directly plan and implement policies according to their preferences.
+                서울특별시가 추진하는 주민자치는 주민과 행정 간 거버넌스를 강화하고, 주민들이 자신의 선호에 따라 정책을 직접 기획하고 실행할 수 있도록 하는 것을 목표로 합니다.
             description: | # this will include new lines to allow paragraphs
-                - Based on specialized knowledge in governance, I served as a community organizer and advisor, mediating between residents and administration, and working to enhance understanding of governance systems.
+                - 거버넌스에 대한 전문 지식을 바탕으로 주민조직활동가가 및 자문 역할을 수행하며, 주민과 행정 간의 중재를 담당하고 거버넌스 시스템에 대한 이해를 높이기 위해 노력했습니다.
 
           - layout: left
             title: WOW Culture LAB
@@ -248,9 +261,9 @@ content:
             sub_title: Event Designer
             caption: 2016 - 2018
             quote: >
-                Wow Culture Lab is a social enterprise that plans and organizes various cultural events, including the renowned Wow Book Festival, one of Seoul's prominent book festivals.
+                와우컬처랩은 서울을 대표하는 책 축제 중 하나인 와우북페스티벌을 비롯해 다양한 문화 행사를 기획하고 주최하는 사회적 기업입니다.
             description: | # this will include new lines to allow paragraphs
-                - As a Event Designer, I organized and executed the Wow Book Festival, along with various other cultural events.
+                - 문화 기획자로서 와우북페스티벌을 비롯한 다양한 문화 행사를 기획하고 실행했습니다.
 
           - layout: left
             title: Seoul Welfare Foundation
@@ -259,9 +272,9 @@ content:
             sub_title: Community Organizer
             caption: 2013 - 2014
             quote: >
-                Seoul Welfare Foundation is an organization dedicated to leading Seoul's welfare policies and conducting research on welfare models that can be implemented in the public sector.
+                서울복지재단은 서울시 복지 정책을 선도하고, 공공 부문에서 적용할 수 있는 복지 모델을 연구하는 기관입니다.
             description: | # this will include new lines to allow paragraphs
-                - I have worked as an organizational activist for resident organizations through the "Welfare Ecosystem Development Project for Local Areas" aimed at restoring community relationships in disconnected urban areas.
+                - 단절된 도시 지역의 공동체 관계 회복을 목표로 한 「지역 복지 생태계 조성 사업」을 통해 주민 조직을 지원하는 조직 활동가로 활동했습니다.
 
           - layout: left
             title: National Health Insurance Service
@@ -270,18 +283,18 @@ content:
             sub_title: Intern
             caption: 2012
             quote: >
-                The National Health Insurance Service is a key organization that operates the medical insurance system in South Korea, which adopts a public health insurance system.
+                국민건강보험공단은 공적 건강보험 제도를 채택한 대한민국에서 의료보험 제도를 운영하는 핵심 기관입니다.
             description: | # this will include new lines to allow paragraphs
-                - Through this internship, I have firmly solidified my determination to work for the betterment of society.
+                - 이 인턴십을 통해 사회에 기여하겠다는 제 의지를 더욱 확고히 다질 수 있었습니다.
 
     - title: A Little More About Me
       layout: text
       content: | # this will include new lines to allow paragraphs
-          - I always enjoy learning new things, but at the same time, I appreciate the beauty of the old. I aspire to find a path where AI can lead modern society in a positive direction, drawing upon my knowledge of humanities.
+          - 저는 항상 새로운 것을 배우는 것을 즐기지만, 동시에 오래된 것의 아름다움도 소중히 여깁니다. 인문학적 지식을 바탕으로, 인공지능이 현대 사회를 긍정적인 방향으로 이끌어갈 수 있는 길을 찾고자 노력하고 있습니다.
 
-          - I have been active in 'Our Neighborhood Youth Association', which is based in Mangwon-dong, Mapo-gu, Seoul, for the past 10 years. 'Our Neighborhood Youth Association' has been engaged in community-based volunteer activities and operated a youth alternative space called 'Beyond Imagination' near Hongik University, a cultural landmark in Seoul. I also served as the president of 'Our Neighborhood Youth Association' for two years.[[link](https://n.news.naver.com/mnews/article/047/0002078167?sid=103)]
+          - 저는 지난 10년간 서울 마포구 망원동을 기반으로 활동하는 '우리동네청년회'에서 활동해왔습니다. '우리동네청년회'는 지역 공동체를 기반으로 한 봉사 활동을 꾸준히 진행했으며, 서울의 문화 명소인 홍익대학교 인근에서 '비욘드 이매지네이션(Beyond Imagination)'이라는 청년 대안 공간을 운영해왔습니다. 저는 이 '우리동네청년회'에서 2년 동안 회장직을 맡아 활동하기도 했습니다. [[링크](https://n.news.naver.com/mnews/article/047/0002078167?sid=103)]
 
-          - I also appreciate the mathematical depth and ever-changing nature of baseball as a sport.
+          - 또한 저는 야구라는 스포츠가 지닌 수학적 깊이와 끊임없이 변화하는 특성을 높이 평가하고 있습니다.
 
 # Footer
 footer_show_references: true
