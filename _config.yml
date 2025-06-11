@@ -217,11 +217,12 @@ content:
           - layout: top-middle
             title: Hanyang Cyber Univercity
             link: http://www.hycu.ac.kr/
-            caption: 2024 - Present
+            caption: 2024 - 2025. 08
             sub_title: Applied Software Engineering
 
             description: | # this will include new lines to allow paragraphs
                 - I learned about ML/AI through educational institutions, but I decided to further my studies for a more in-depth education. I am studying the basics of computer science and the theoretical background underlying ML/AI, and on top of that, I am acquiring practical skills.
+                - I am expected to receive a Bachelor’s degree in Applied Software Engineering in August 2025.
 
           - layout: top-middle
             title: Aiffel
