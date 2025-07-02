@@ -60,6 +60,7 @@ content:
           - layout: top-middle
             title: WithPet
             link: https://github.com/PrompTartLab/WithPet
+            link: https://github.com/PrompTartLab/WithPet
             # link_text: Project Website
             # - title:  Github page for project (eg. sproogen/modern-resume-theme)
             #   icon: fab fa-github
