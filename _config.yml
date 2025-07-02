@@ -57,9 +57,8 @@ content:
     - title: Projects # Title for the section
       layout: list # Type of content section (list/text)
       content:
-          - layout: top-middle
+          - layout: top-right
             title: WithPet
-            link: https://github.com/PrompTartLab/WithPet
             link: https://github.com/PrompTartLab/WithPet
             # link_text: Project Website
             # - title:  Github page for project (eg. sproogen/modern-resume-theme)
