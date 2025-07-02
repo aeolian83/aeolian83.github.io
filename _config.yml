@@ -57,7 +57,7 @@ content:
     - title: Projects # Title for the section
       layout: list # Type of content section (list/text)
       content:
-          - layout: top-right
+          - layout: left
             title: WithPet
             link: https://github.com/PrompTartLab/WithPet
             # link_text: Project Website
