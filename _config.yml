@@ -73,7 +73,7 @@ content:
                 - The GUI was developed using Streamlit, and the model integration and answer generation were implemented through the OpenAI API.  
                 - In the early development phase, I was responsible for building the MVP (Minimum Viable Product), applying the GUI, and performing bug fixes.  Currently, I am continuing development by adding additional features.
 
-          - layout: left
+          - layout: top`
             title: Efficient Technical Term Translation; A Knowledge Distillation Approach for Parenthetical Terminology
             link: https://arxiv.org/abs/2410.00683
             # link_text: Project Website
