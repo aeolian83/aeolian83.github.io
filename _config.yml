@@ -10,6 +10,7 @@ name: Jungki Son
 title: AI Engineer
 email: aeolian83@gmail.com
 website: github.com/aeolian83/
+website: https://www.linkedin.com/in/aeolian83/
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -60,8 +61,6 @@ content:
           - layout: left
             title: WithPet
             link: https://github.com/PrompTartLab/WithPet
-            link_text: https://withpet.streamlit.app/
-            link_text: https://withpet.streamlit.app/
             # - title:  Github page for project (eg. sproogen/modern-resume-theme)
             #   icon: fab fa-github
             #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
